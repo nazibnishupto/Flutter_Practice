@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_program/map_screen.dart';
+import 'package:flutter_program/map_tracking_screen.dart';
 
-import 'gps_screen.dart';
 
 class myApp extends StatelessWidget {
   const myApp({super.key});
@@ -9,7 +9,7 @@ class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MapScreen(),
+      home: MapTrackingScreen(),
     );
   }
 }
